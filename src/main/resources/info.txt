@@ -1,0 +1,12 @@
+/*
+- najpierw tworzymy projekt config-server a w podkatalogu configuration
+- następnie apkę np. randomizing-machine, do której będzie się odwoływać inna apka
+- eureka-server, która pobiera configuracje z config-servera i współpracuje z apką
+- apka końcowa (sentence-filler), która pobiera dane z apki pośredniej (np. randomizing-machine)
+- gdzie są zapisane dane dla randomizing-machine?
+- jek wyświetlić eurekę?
+- po wybraniu portu apki końcowej (sentence-filler) - localhost:8061 - i mappingu (fill) -
+oraz wybraniu parametru(@RequestParam) - sentence i wpisaniu żądanego zdania:
+aplikacja podmienia wpisane ciągi znaków !!! oraz @@@ na losowo wybrane liczby lub Stringi
+z podanej bazy
+*/
